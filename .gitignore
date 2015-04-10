@@ -87,3 +87,4 @@ GTAGS
 
 # Generated source files
 bswapsdi2.S
+sha256-core.S
