@@ -559,7 +559,7 @@ int main(int ac, char **av)
 				"***\n"), defconfig_file);
 			exit(1);
 		}
-		name = getenv("KCONFIG_PERF");
+		/* name = getenv("KCONFIG_PERF");
 		printf("KCONFIG_PERF(%s)\n", name);
 		if (name) {
 			if (conf_read_simple(name, S_DEF_USER, false)) {
@@ -569,7 +569,7 @@ int main(int ac, char **av)
 				exit(1);
 			}
 		} 
-		/* build error goni 20140210
+		build error goni 20140210
 		 else {
 			printf(_("***\n"
 				"***  You must specify PERF_DEFCONFIG !\n"
