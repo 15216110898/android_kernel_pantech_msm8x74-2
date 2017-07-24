@@ -84,3 +84,6 @@ GTAGS
 *.orig
 *~
 \#*#
+
+# Generated source files
+bswapsdi2.S
